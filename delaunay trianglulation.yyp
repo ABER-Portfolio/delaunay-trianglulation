@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"code","path":"objects/code/code.yy",},"order":0,},
-    {"id":{"name":"룸1","path":"rooms/룸1/룸1.yy",},"order":0,},
+    {"id":{"name":"room_1","path":"rooms/room_1/room_1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -20,7 +20,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"룸1","path":"rooms/룸1/룸1.yy",},},
+    {"roomId":{"name":"room_1","path":"rooms/room_1/room_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/스프라이트.yy","order":1,"resourceVersion":"1.0","name":"스프라이트","tags":[],"resourceType":"GMFolder",},
