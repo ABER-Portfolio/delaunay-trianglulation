@@ -17,7 +17,7 @@ var c_s = camera_get_view_width(view_camera[0])/1280
 
 draw_text_ext_transformed(c_x+32*c_s,c_y+32*c_s,"draw mode : "+string(draw_mode_text)+" (F1)",128,999999,c_s,c_s,0)
 draw_text_ext_transformed(c_x+32*c_s,c_y+64*c_s,"reset (R)",128,999999,c_s,c_s,0)
-draw_text_ext_transformed(c_x+32*c_s,c_y+camera_get_view_height(view_camera[0])-32*c_s,"total number of cases : "+string(total_circle)+"/9999 (maximum)",128,999999,c_s,c_s,0)
+draw_text_ext_transformed(c_x+32*c_s,c_y+camera_get_view_height(view_camera[0])-32*c_s,"total number of cases : "+string(total_circle)+"/720 (maximum)",128,999999,c_s,c_s,0)
 draw_set_color(c_red)
 
 

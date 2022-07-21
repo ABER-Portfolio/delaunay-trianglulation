@@ -57,7 +57,7 @@ var t3 = argument2
 
 	var check_only_three_points_in = 0
 	//check whether the points are in the circumcircle
-	for(var i = 0; i < 9999; i++)
+	for(var i = 0; i < 256; i++)
 	{
 		//stop repeating when it dont need to do this   OR   when there're points more than 3
 		if xx[i] = -4
@@ -69,7 +69,7 @@ var t3 = argument2
 	//distance from certain point to circumcenter
 	var r_point_length = sqrt(power(cir_xx - xx[i],2) + power(cir_yy - yy[i],2))
 
-		if r_point_length*100 <= rad_cir*50
+		if r_point_length <= rad_cir*0.5
 		{
 		check_only_three_points_in ++
 		}

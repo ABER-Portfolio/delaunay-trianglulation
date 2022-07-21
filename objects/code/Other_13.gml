@@ -5,7 +5,7 @@ var total_cal_num = 0
 
 //reset all circumcirle and lines
 n_circle = 0
-instance_destroy(obj_line)
+
 
 for(var i = 0; i < 9999; i++)
 {

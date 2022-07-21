@@ -8,11 +8,14 @@ total_circle = 0
 
 draw_mode = 0
 
-for(var i = 0; i < 9999; i++)
+for(var i = 0; i < 256; i++)
 {
 xx[i] = -4;
 yy[i] = -4;
+}
 
+for(var i = 0; i < 12800; i++)
+{
 cir_xx_s[i] = -4;
 cir_yy_s[i] = -4;
 cir_rad_s[i] = -4;
