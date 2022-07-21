@@ -17,6 +17,7 @@ https://darkpgmr.tistory.com/96
 ▼ 코드 내용 설명은 주석이 달려있지만, 대략적인 알고리즘을 보길 권장 (아래 참고)
 
 [코드는 object 폴더의 code파일 참고]
+https://github.com/ABER1047/delaunay-trianglulation/tree/main/objects/code
 
 ===================================================================
 
