@@ -17,6 +17,7 @@ https://darkpgmr.tistory.com/96
 ▼ 코드 내용 설명은 주석이 달려있지만, 대략적인 알고리즘을 보길 권장 (아래 참고)
 
 [주요 계산식 코드]
+
 https://github.com/ABER1047/delaunay-trianglulation/blob/main/scripts/get_triangle/get_triangle.gml
 
 ===================================================================
