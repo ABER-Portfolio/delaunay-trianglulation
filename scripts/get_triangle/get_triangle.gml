@@ -43,9 +43,9 @@ var t3 = argument2
 	var sinC = sqrt(1 - power(cosC,2))
 
 	//formula
-	var sin2A = sinA*cosA + cosA*sinA //= power(sinA*cosA,2)
-	var sin2B = sinB*cosB + cosB*sinB //= power(sinB*cosB,2)
-	var sin2C = sinC*cosC + cosC*sinC //= power(sinC*cosC,2)
+	var sin2A = (sinA*cosA)*2 // = sinA*cosA + cosA*sinA
+	var sin2B = (sinB*cosB)*2 // = sinB*cosB + cosB*sinB
+	var sin2C = (sinC*cosC)*2 // = sinC*cosC + cosC*sinC
 
 	//circumcenter position
 	var cir_xx = (xx[t1]*sin2A + xx[t2]*sin2B + xx[t3]*sin2C) / (sin2A + sin2B + sin2C)

@@ -27,6 +27,7 @@ for(var i = 0; i <= n_point_num; i++)
 			{
 				if iii != ii && iii != i
 				{
+				//check script folder for check algorithm
 				var _total_checker = get_triangle(i,ii,iii)
 
 				
