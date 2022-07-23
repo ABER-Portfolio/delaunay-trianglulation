@@ -8,7 +8,7 @@
 
 #
 
-## 들로네의 삼각분할이란?
+### 들로네의 삼각분할이란?
 -------------
 
 들로네 삼각분할은 평면위의 점들을 삼각형으로 연결하여 공간을 분할할 때, 
@@ -27,7 +27,7 @@ https://github.com/ABER1047/delaunay-trianglulation/blob/main/scripts/get_triang
 
 #
 
-## 미리보기
+### ▼ 미리보기
 
 ![preview_1](imgs/preview_1.gif)
 
