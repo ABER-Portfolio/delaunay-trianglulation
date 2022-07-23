@@ -24,9 +24,13 @@ https://darkpgmr.tistory.com/96
 ### ▼ 참고 사항
 -------------
 
-코드 내용 설명은 주석이 달려있지만, 대략적인 알고리즘을 보길 권장 (아래 참고)
+코드 내용 설명은 주석이 달려있지만, 대략적인 알고리즘을 보길 권장
 
-[주요 계산식 코드]
+[대략적인 알고리즘]
+
+https://github.com/ABER1047/delaunay-trianglulation/blob/main/README.md#-%EB%8C%80%EB%9E%B5%EC%A0%81%EC%9D%B8-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-
+
+[해당 알고리즘을 이용하여 제작한 계산식 코드]
 
 https://github.com/ABER1047/delaunay-trianglulation/blob/main/scripts/get_triangle/get_triangle.gml
 
