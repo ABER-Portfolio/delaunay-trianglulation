@@ -34,5 +34,27 @@ t_x = mouse_x
 t_y = mouse_y
 }
 
+if t_x < camera_get_view_width(view_camera[0])*0.5
+{
+t_x = camera_get_view_width(view_camera[0])*0.5
+}
+
+if t_y < camera_get_view_height(view_camera[0])*0.5
+{
+t_y = camera_get_view_height(view_camera[0])*0.5
+}
+
+if t_x > room_width-camera_get_view_width(view_camera[0])*0.5
+{
+t_x = room_width-camera_get_view_width(view_camera[0])*0.5
+}
+
+if t_y > room_height-camera_get_view_height(view_camera[0])*0.5
+{
+t_y = room_height-camera_get_view_height(view_camera[0])*0.5
+}
+
+
+
 x += (t_x - x)*0.1
 y += (t_y - y)*0.1

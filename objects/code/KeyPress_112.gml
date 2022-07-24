@@ -3,7 +3,7 @@
 
 draw_mode ++
 
-if draw_mode > 2
+if draw_mode > 3
 {
 draw_mode = 0
 }

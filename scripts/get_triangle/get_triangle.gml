@@ -69,7 +69,7 @@ var t3 = argument2
 	//distance from certain point to circumcenter
 	var r_point_length = sqrt(power(cir_xx - xx[i],2) + power(cir_yy - yy[i],2))
 
-		if r_point_length <= rad_cir*0.5
+		if r_point_length*2 <= rad_cir
 		{
 		check_only_three_points_in ++
 		}
@@ -104,6 +104,33 @@ var t3 = argument2
 	cir_yy_s[n_circle] = cir_yy;
 	cir_rad_s[n_circle] = rad_cir;
 	
-	return check_only_three_points_in;
+	
+		//line
+		if check_only_three_points_in <= 3
+		{
+		line_xx1[n_line*3] = xx[t1];
+		line_yy1[n_line*3] = yy[t1];
+
+		line_xx2[n_line*3] = xx[t2];
+		line_yy2[n_line*3] = yy[t2];
+				
+				
+		line_xx1[n_line*3+1] = xx[t2];
+		line_yy1[n_line*3+1] = yy[t2];
+
+		line_xx2[n_line*3+1] = xx[t3];
+		line_yy2[n_line*3+1] = yy[t3];
+				
+				
+		line_xx1[n_line*3+2] = xx[t3];
+		line_yy1[n_line*3+2] = yy[t3];
+
+		line_xx2[n_line*3+2] = xx[t1];
+		line_yy2[n_line*3+2] = yy[t1];
+		
+		n_line ++
+		}
+	
+	//return check_only_three_points_in;
 	}
 }

@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"get_triangle","path":"scripts/get_triangle/get_triangle.yy",},"order":0,},
-    {"id":{"name":"obj_line","path":"objects/obj_line/obj_line.yy",},"order":1,},
     {"id":{"name":"code","path":"objects/code/code.yy",},"order":0,},
     {"id":{"name":"room_1","path":"rooms/room_1/room_1.yy",},"order":0,},
   ],

@@ -14,16 +14,12 @@ xx[i] = -4;
 yy[i] = -4;
 }
 
-for(var i = 0; i < 12800; i++)
-{
-cir_xx_s[i] = -4;
-cir_yy_s[i] = -4;
-cir_rad_s[i] = -4;
-cir_col[i] = -4;
-}
+event_user(1)
 
 
 
+m_cl_p_xx = mouse_x
+m_cl_p_yy = mouse_y
 v_x = 1280
 v_y = 720
 tv_x = 1280
