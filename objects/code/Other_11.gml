@@ -2,6 +2,7 @@
 // You can write your code in this editor
 //reset all circumcirle and lines
 n_line = 0
+n_circle = 0
 
 
 for(var i = 0; i < 12800; i++)

@@ -39,7 +39,7 @@ draw_line_width(line_xx1[i],line_yy1[i],line_xx2[i],line_yy2[i],1.5)
 if draw_mode != 2
 {
 draw_set_color(c_red)
-	for(var i = 0; i < n_point_num; i++)
+	for(var i = 0; i <= n_point_num; i++)
 	{
 	draw_circle(xx[i],yy[i],2,false)
 	}
