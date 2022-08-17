@@ -95,11 +95,17 @@ Y = f(X) = f(-z / (m1 - m2)) 이다.
 </br></br>
 
 
-- **외심의 좌표 유도 (방법 3) [외부 자료]**
-```
-[해당 내용 참고]
+- **외심의 좌표 유도 (방법 3) [외심의 좌표 공식을 활용]**
+
+(외심의 좌표 공식 증명)
 
 https://math.stackexchange.com/questions/3472719/prove-x-coordinate-of-circumcenter-of-triangle-abc-is-x1-sin2ax2-sin2bx3-s
+
+
+
+**(아래 과정 부터 다시 직접 계산함)**
+
+```
 
 외심의 좌표를 D(X,Y)라고 할때,
 이때 X는 [(x1 sin 2A + x2 sin 2B + x3 sin 2C)/ (sin 2A + sin 2B + sin 2C)] 
