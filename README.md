@@ -116,13 +116,16 @@ https://math.stackexchange.com/questions/3472719/prove-x-coordinate-of-circumcen
 sin2A = sin(A + A) = sinA x cosA + cosA x sinA = 2(sinA*cosA)
 (나머지 sin2B, sin2C도 같은 방식으로 구할수 있다.)
 
-이때의 외접원의 반지름을 구하기 위해, 코사인 법칙을 이용해, 
+이때의 외접원의 반지름을 구하기 위해, 
+코사인 법칙을 사용하여 cosA를 구한다.
 
-cos(A) = (L3^2 + L1^2 - L2^2)/(2 x L3 x L1)을 구할수 있고, 
+cos(A) = (L3^2 + L1^2 - L2^2)/(2 x L3 x L1)
 
-이때 사인법칙을 사용하기 위해, [cos(A)^2 + sin(A)^2 = 1] 임을 변형해, 
-
+이때 [cos(A)^2 + sin(A)^2 = 1] 임을 변형해, 
 sin(A) = √[1 - cos(A)^2]임을 구할 수 있다.
+
+따라서 식을 정리하면,
+sin2A = 2(√[1 - cos(A)^2] * cosA) 이다.
 
 (삼각함수 관련 공식과 정리를 사용하고 싶어서 해당 방법으로도 제작하였음)
 
