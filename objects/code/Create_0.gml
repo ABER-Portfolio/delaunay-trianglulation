@@ -7,6 +7,8 @@ n_circle = 0
 total_circle = 0
 
 draw_mode = 0
+cal_type = 0
+//draw_target = 0
 
 for(var i = 0; i < 256; i++)
 {

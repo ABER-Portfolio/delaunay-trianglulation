@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//check all circumcircle and points
 var total_cal_num = 0
-
-
-
 
 for(var i = 0; i <= n_point_num; i++)
 {
@@ -17,7 +15,7 @@ for(var i = 0; i <= n_point_num; i++)
 				if iii != ii && iii != i
 				{
 				//check script folder for check algorithm
-				get_triangle(i,ii,iii)
+				get_triangle(i,ii,iii,0)
 
 				
 				n_circle ++

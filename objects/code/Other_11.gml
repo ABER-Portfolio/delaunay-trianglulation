@@ -5,7 +5,7 @@ n_line = 0
 n_circle = 0
 
 
-for(var i = 0; i < 12800; i++)
+for(var i = 0; i < 32000; i++)
 {
 cir_xx_s[i] = -4;
 cir_yy_s[i] = -4;

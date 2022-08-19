@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//code for only camera
 x = floor(x)
 y = floor(y)
 
