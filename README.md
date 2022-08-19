@@ -19,7 +19,6 @@
 
 https://darkpgmr.tistory.com/96
 
-(기본 이론만 똑같고, 알고리즘 내용은 다릅니다)
 
 #
 
