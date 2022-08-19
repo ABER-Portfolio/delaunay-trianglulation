@@ -51,6 +51,7 @@ draw_set_color(c_red)
 draw_text_ext_transformed(c_x+1250*c_s,c_y+96*c_s,"last point pos : \n("+string(xx[n_point_num-1])+", "+string(yy[n_point_num-1])+")",24,999999,c_s,c_s,0)
 }
 draw_set_halign(fa_left)
+draw_set_color(c_black)
 draw_text_ext_transformed(c_x+32*c_s,c_y+128*c_s,"camera zoom in/out (Ctrl + mousewheel)",128,999999,c_s,c_s,0)
 draw_text_ext_transformed(c_x+32*c_s,c_y+160*c_s,"camera move (RMB)",128,999999,c_s,c_s,0)
 draw_set_color(c_red)
