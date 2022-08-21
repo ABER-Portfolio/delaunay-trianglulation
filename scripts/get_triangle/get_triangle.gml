@@ -141,6 +141,7 @@ show_debug_message("inclination_n2 : "+string(inclination_n2));
 			if (check_only_three_points_in > 3)
 			{
 			cir_col[n_circle] = c_gray;
+			break;
 			}
 			else
 			{
