@@ -27,11 +27,11 @@ https://darkpgmr.tistory.com/96
 
 코드 내용 설명은 주석이 달려있지만, 대략적인 알고리즘을 보길 권장
 
-[대략적인 알고리즘]
+#### ▼ 대략적인 알고리즘
 
 https://github.com/ABER1047/delaunay-trianglulation/blob/main/README.md#-%EB%8C%80%EB%9E%B5%EC%A0%81%EC%9D%B8-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-
 
-[해당 알고리즘을 이용하여 제작한 계산식 코드]
+#### ▼ 해당 알고리즘을 이용하여 제작한 계산식 코드
 
 https://github.com/ABER1047/delaunay-trianglulation/blob/main/scripts/get_triangle/get_triangle.gml
 
@@ -62,7 +62,7 @@ L1 = √[(x2 - x1)2 + (y2 - y1)2] … (이하 생락) 일때,
 </br></br>
 
 
-- **외심의 좌표 유도 (방법 2) [처음부터 직접 구상함]** - (단순 기하학적인 내용과 다항함수만을 사용한 방법)
+- **외심의 좌표 유도 (방법 2) [처음부터 직접 구상함]** - (단순 기하학적인 내용과 다항함수만을 사용한 방법 - 삼각함수 방법보다 훨씬 빠름)
 ```
 직선 L1, L2, L3의 중심 좌표의 값과 삼각형을 이루고 있는 직선들의 기울기를 구하고, 이를 엮어
 삼각형의 외심의 중심은 수직 이등분선의 교점이라는 사실을 이용해, 두 직선의 교점의 좌표값 X,Y를 구할수 있음
@@ -97,7 +97,7 @@ Y = f(X) = f(-z / (m1 - m2)) 이다.
 
 - **외심의 좌표 유도 (방법 3) [외심의 좌표 공식만을 베이스로 구상함]** - (삼각함수 관련 공식과 정리를 사용한 방법)
 
-(외심의 좌표 공식 증명)
+#### ▼ 외심의 좌표 공식 증명은 이쪽 참고
 
 https://math.stackexchange.com/questions/3472719/prove-x-coordinate-of-circumcenter-of-triangle-abc-is-x1-sin2ax2-sin2bx3-s
 
