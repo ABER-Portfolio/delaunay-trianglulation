@@ -74,6 +74,10 @@ draw_set_color(c_black)
 	for(var i = 0; i < n_line*3+2; i++)
 	{
 	draw_line_width(line_xx1[i],line_yy1[i],line_xx2[i],line_yy2[i],1.5)
+		//if (line_xx1[i] > 0 && line_xx2[i] > 0)
+        //{
+		//show_debug_message("test1-line_xx1[k] : "+string(i))
+        //}
 	}
 //}
 

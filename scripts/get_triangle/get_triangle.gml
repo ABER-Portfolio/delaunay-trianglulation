@@ -11,9 +11,9 @@ var t2 = argument1;
 var t3 = argument2;
 
 //inclinations
-var inclination_n1 = floor((yy[t1] - yy[t2]) / (xx[t1] - xx[t2])*10)
-var inclination_n2 = floor((yy[t2] - yy[t3]) / (xx[t2] - xx[t3])*10)
-var inclination_n3 = floor((yy[t1] - yy[t3]) / (xx[t1] - xx[t3])*10)
+var inclination_n1 = floor((yy[t1] - yy[t2]) / (xx[t1] - xx[t2])*10);
+var inclination_n2 = floor((yy[t2] - yy[t3]) / (xx[t2] - xx[t3])*10);
+var inclination_n3 = floor((yy[t1] - yy[t3]) / (xx[t1] - xx[t3])*10);
 	
 //GML only function (to know values on console)
 show_debug_message("inclination_n1 : "+string(inclination_n1));
@@ -186,6 +186,7 @@ show_debug_message("inclination_n2 : "+string(inclination_n2));
 			line_yy2[n_line*3+2] = yy[t1];
 		
 			n_line ++;
+			show_debug_message("n_line : "+string(n_line));
 			}
 	
 		//return check_only_three_points_in;

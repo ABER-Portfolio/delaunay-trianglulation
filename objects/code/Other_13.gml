@@ -2,24 +2,23 @@
 // You can write your code in this editor
 
 //check all circumcircle and points
-var total_cal_num = 0
+var total_cal_num = 0;
 
 for(var i = 0; i <= n_point_num; i++)
 {
 	for(var ii = 0; ii <= n_point_num; ii++)
 	{
-		if ii != i
+		if (ii != i)
 		{
 			for(var iii = 0; iii <= n_point_num; iii++)
 			{
-				if iii != ii && iii != i
+				if (iii != ii && iii != i)
 				{
 				//check script folder for check algorithm
-				get_triangle(i,ii,iii,0)
+				get_triangle(i,ii,iii,0);
 
-				
-				n_circle ++
-				total_cal_num ++
+				n_circle ++;
+				total_cal_num ++;
 				}
 			}
 		}
