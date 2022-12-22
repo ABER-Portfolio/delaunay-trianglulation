@@ -35,9 +35,14 @@ https://github.com/ABER1047/delaunay-trianglulation/blob/main/scripts/get_triang
 
 #
 
+<div align="center">
+
 ### ▼ 미리보기
 
+  
 ![preview_1](imgs/preview_1.gif)
+  
+</div>
 
 #
 
@@ -61,6 +66,14 @@ L1 = √[(x2 - x1)2 + (y2 - y1)2] … (이하 생락) 일때,
 
 
 - **외심의 좌표 유도 (방법 2) [처음부터 직접 구상함]** - (단순 기하학적인 내용과 다항함수만을 사용한 방법 - 삼각함수 방법보다 훨씬 빠름)
+
+
+<div align="center">
+  
+<img src = "구상도/blueprint_1.PNG" width = "500px"><img src = "구상도/blueprint_2.PNG" width = "478px">
+  
+</div>
+
 ```
 직선 L1, L2, L3의 중심 좌표의 값과 삼각형을 이루고 있는 직선들의 기울기를 구하고, 이를 엮어
 삼각형의 외심의 중심은 수직 이등분선의 교점이라는 사실을 이용해, 두 직선의 교점의 좌표값 X,Y를 구할수 있음
