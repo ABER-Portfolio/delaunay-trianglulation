@@ -70,7 +70,7 @@ L1 = √[(x2 - x1)2 + (y2 - y1)2] … (이하 생락) 일때,
 
 <div align="center">
   
-<img src = "구상도/blueprint_1.PNG" width = "500px"><img src = "구상도/blueprint_2.PNG" width = "478px">
+<img src = "구상도/blueprint_1.PNG" width = "387px"><img src = "구상도/blueprint_2.PNG" width = "370px">
   
 </div>
 
