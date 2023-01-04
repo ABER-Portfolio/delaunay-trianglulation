@@ -91,7 +91,7 @@ https://github.com/ABER1047/delaunay-trianglulation/blob/main/scripts/get_triang
 
 먼저 좌표평면 위 특정한 삼각형에서의 외심을 구해야 한다 (관련 내용은 아래 클릭)
 
-</br></br></br>
+</br>
 
 
 <details>
@@ -233,7 +233,8 @@ sin(A)/L2 = 2R (이때 R은 외접원의 반지름)을 통해 특정 삼각형�
 </details>
 
 
-</br></br></br></br>
+-------------
+
 </details>
 
 
