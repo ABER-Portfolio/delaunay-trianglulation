@@ -70,7 +70,9 @@ https://github.com/ABER1047/delaunay-trianglulation/blob/main/scripts/get_triang
 -------------
 
 
-먼저 좌표평면 위 특정한 삼각형에서의 외심을 구해야 한다
+먼저 좌표평면 위 특정한 삼각형에서의 외심을 구해야 한다 (관련 내용은 아래 클릭)
+
+</br></br></br>
 
 
 <details>
@@ -143,7 +145,7 @@ Y = f(X) = f(-z / (m1 - m2)) 이다.
 
 
 <details>
-<summary>외심의 좌표 유도 (방법 3) [외심의 좌표 공식만을 베이스로 구상]** - (삼각함수 관련 공식과 정리를 사용한 방법)</summary>
+<summary>외심의 좌표 유도 (방법 3) (외심의 좌표 공식만을 베이스로 삼각함수 관련 공식과 정리를 사용한 방법)</summary>
 
 
 #### ▼ 외심의 좌표 공식 증명은 이쪽 참고
@@ -186,7 +188,7 @@ sin2A = 2(√[1 - cos(A)^2] * cosA) 이다.
 
 
 
-</br></br>
+
 
 
 <details>
