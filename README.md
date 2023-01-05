@@ -1,4 +1,6 @@
-# delaunay-trianglulation
+<div align="center">
+
+<img src = "imgs/repo_templ.png" width = "900px">
 
 ### 들로네의 삼각분할 (delaunay trianglulation)
 
@@ -7,7 +9,7 @@
 #
 
 
-<div align="center">
+
 
 ### ▼ 미리보기
 
